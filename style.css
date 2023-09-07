@@ -5,6 +5,10 @@
 font-size: 20px;
 
 }
+#butt1 {
+  font-size: 20px;
+  width: 90%;
+}
 button {
     width: 45%;
     height: auto;
