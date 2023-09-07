@@ -129,6 +129,7 @@ function closepoem() {
             document.getElementById("lastmessage").style.display='block';
             
             document.getElementById("show7").style.display='none';
+          document.getElementById("poem").style.display='none';
         }, 730000);
     
 }
@@ -137,7 +138,7 @@ function openslide() {
   setTimeout(
       function() {
 
-          
+          document.getElementById("poem").style.display='none';
           document.getElementById("lastmessage").style.display='none';
           document.getElementById("memories").style.display ='block';
           document.getElementById("memory").style.display ='block';
